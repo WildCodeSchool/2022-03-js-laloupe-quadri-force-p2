@@ -1,12 +1,13 @@
 import axios from "axios";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 const Appel = () => {
-  //   const [data, setData] = useState();
+  const [data, setData] = useState([]);
   useEffect(() => {
-    axios
-      .get("https://botw-compendium.herokuapp.com/api/v2")
-      .then((res) => console.warn("API BOTW : ", res.data.data.monsters));
+    axios.get("https://botw-compendium.herokuapp.com/api/v2").then((res) => {
+      setData(res.data.data.monsters);
+      console.warn(res.data.data.monsters);
+    });
     axios
       .get("https://zelda.fanapis.com/api/characters?limit=100")
       .then((res) => console.warn("API ZELDA/characters : ", res.data));
@@ -20,6 +21,9 @@ const Appel = () => {
   return (
     <div>
       <h1>Monstre de Zelda BOTW</h1>
+      {data.map((monster, index) => (
+        <img src={monster.image} alt={index} />
+      ))}
     </div>
   );
 };
