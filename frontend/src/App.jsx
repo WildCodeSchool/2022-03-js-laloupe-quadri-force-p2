@@ -9,8 +9,7 @@ import Footer from "@components/Footer";
 
 export default function App() {
   return (
-    <div>
-      <h1>Projet ZELDA</h1>
+    <div className="mainBody">
       <Header />
       <Routes>
         <Route path="/maps" element={<Maps />} />
