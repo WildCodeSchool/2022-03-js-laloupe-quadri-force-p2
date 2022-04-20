@@ -1,7 +1,10 @@
+import mapHD from "../assets/mapHD.jpeg";
+import "../App.css";
+
 export default function Maps() {
   return (
-    <div>
-      <h1>hello maps</h1>
+    <div className="mapDiv">
+      <img className="map" src={mapHD} alt="" />
     </div>
   );
 }
