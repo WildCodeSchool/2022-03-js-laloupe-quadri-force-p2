@@ -3,7 +3,7 @@ import React from "react";
 
 const Encyclopedia = () => {
   return (
-    <div>
+    <div className="encyclopedia">
       <h1>Hello Encyclopedia</h1>
       <Appel />
     </div>
