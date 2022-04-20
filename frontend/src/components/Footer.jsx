@@ -1,11 +1,13 @@
 import React from "react";
+import "../App.css"
+
 
 import bordureFoot from "../assets/bordureFoot.png";
 
 const Footer = () => {
   return (
     <footer>
-      <img src={bordureFoot} alt="Bordure Footer" />
+      <img className="footer" src={bordureFoot} alt="Bordure Footer" />
     </footer>
   );
 };
