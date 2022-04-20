@@ -85,7 +85,6 @@ button {
   color: white;
   border: 2px solid green;
 }
-
 .mapDiv {
   display: flex;
   position: relative;
@@ -102,4 +101,7 @@ button {
   width: 100%;
   height: auto;
   align-content: center;
+}
+.encyclopedia{
+  overflow: auto;
 }
