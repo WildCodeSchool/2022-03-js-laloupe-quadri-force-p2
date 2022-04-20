@@ -1,6 +1,5 @@
 import React from "react";
-import "../App.css"
-
+import "../App.css";
 
 import bordureFoot from "../assets/bordureFoot.png";
 

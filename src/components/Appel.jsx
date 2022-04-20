@@ -5,8 +5,8 @@ const Appel = () => {
   const [data, setData] = useState([]);
   useEffect(() => {
     axios.get("https://botw-compendium.herokuapp.com/api/v2").then((res) => {
-      setData(res.data.data.monsters);
-      console.warn(res.data.data.monsters);
+      setData(res.data.data.materials);
+      console.warn(res.data.data.materials);
     });
     axios
       .get("https://zelda.fanapis.com/api/characters?limit=100")
@@ -22,7 +22,7 @@ const Appel = () => {
     <div>
       <h1>Monstre de Zelda BOTW</h1>
       {data.map((monster, index) => (
-        <img src={monster.image} alt={index} />
+        <img src={monster.image} alt={index} width="100px" />
       ))}
     </div>
   );
