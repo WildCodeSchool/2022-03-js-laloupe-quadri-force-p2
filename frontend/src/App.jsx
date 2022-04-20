@@ -6,10 +6,12 @@ import Synopsis from "@pages/Synopsis";
 import Heros from "@pages/Heros";
 import Encyclopedia from "@pages/Encyclopedia";
 import Footer from "@components/Footer";
+import Background from "@components/Background.jsx";
 
 export default function App() {
   return (
     <div className="mainBody">
+      <Background />
       <Header />
       <Routes>
         <Route path="/maps" element={<Maps />} />
@@ -20,4 +22,4 @@ export default function App() {
       <Footer />
     </div>
   );
-}
+};
