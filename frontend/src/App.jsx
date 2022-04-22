@@ -18,8 +18,9 @@ export default function App() {
         <Route path="/history" element={<Synopsis />} />
         <Route path="/heros" element={<Heros />} />
         <Route path="/encyclopedia" element={<Encyclopedia />} />
+        <Route path="*" element={<Maps />} />
       </Routes>
       <Footer />
     </div>
   );
-};
+}
