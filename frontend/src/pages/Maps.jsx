@@ -4,7 +4,7 @@ import "../App.css";
 export default function Maps() {
   return (
     <div className="mapDiv">
-      <img className="map" src={mapHD} alt="" />
+      <img className="mapHD" src={mapHD} alt="" />
     </div>
   );
 }
