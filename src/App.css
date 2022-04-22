@@ -76,13 +76,17 @@ button {
 }
 
 .navbar {
+  /* display: flex; */
+  width: 100%;
   position: absolute;
-  top: 30px;
-  left: 700px;
+  border: 2px solid blue;
 }
 
 .link {
   color: white;
+  /* justify-content: space-evenly; */
+  position: relative;
+  width: 100%;
   border: 2px solid green;
 }
 .mapDiv {
@@ -97,11 +101,11 @@ button {
   height: 100%;
   border: 2px solid red;
 }
-.map {
+.mapHD {
   width: 100%;
   height: auto;
   align-content: center;
 }
-.encyclopedia{
+.encyclopedia {
   overflow: auto;
 }
