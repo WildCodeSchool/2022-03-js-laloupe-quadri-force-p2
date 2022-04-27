@@ -57,12 +57,14 @@ button {
 
 .header {
   position: absolute;
+  position: fixed;
   width: 100%;
   /* height: 100%; */
 }
 
 .footer {
   position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
 }
@@ -70,15 +72,16 @@ button {
 .mainBody {
   height: 100vh;
   width: 100%;
-  overflow-x: none;
+  /*overflow-x: none;
   overflow-y: hidden;
-  display: grid;
+  /* display: grid; */
 }
 
 .navbar {
   /* display: flex; */
-  width: 100%;
+  width: auto;
   position: absolute;
+  position: fixed;
   border: 2px solid blue;
 }
 
@@ -108,4 +111,108 @@ button {
 }
 .encyclopedia {
   overflow: auto;
+}
+
+    /* css page hero start*/
+
+.Prodige {
+  display: flex;
+  flex-direction: column;
+  color:red;
+  overflow-y: scroll;
+}
+
+h1 {
+  text-align:center
+}
+
+p {
+  text-align: center;
+  }
+  
+  .one img {
+  width: 30%;
+  margin: 20px 0;
+}
+.one p {
+  padding: 10px;
+  font-size: 16px;
+}
+.two img {
+  width: 30%;
+  margin: 20px 0;
+}
+.two p {
+  padding: 10px;
+  font-size: 16px;
+  padding-bottom: 30px;
+}
+.three img {
+  width: 100%;
+  margin: 20px 0;
+}
+.three p {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.four img {
+  width: 100%;
+  margin: 20px 0;
+}
+.four p {
+  padding: 10px;
+  font-size: 16px;
+}
+
+    /* css page hero end*/
+
+    
+    /* MEDIA RESPONSIVE*/
+
+@media screen and (min-width: 768px) {
+  .one {
+    display: flex;
+    align-items: center;
+  }
+  .two {
+    display: flex;
+    align-items: center;
+  }
+  .three {
+    display: flex;
+    align-items: center;
+  }
+  .four {
+    display: flex;
+    align-items: center;
+  }
+  .one img {
+    padding: 50px;
+    width: 50%;
+  }
+  .one p {
+    width: 80ch;
+  }
+  .two img {
+    padding: 50px;
+    width: 50%;
+  }
+  .two p {
+    width: 80ch;
+  }
+  .three img {
+    padding: 50px;
+    width: 50%;
+  }
+  .three p {
+    width: 80ch;
+  }
+  .four img {
+    padding: 50px;
+    width: 50%;
+  }
+  .four p {
+    width: 80ch;
+  }
 }
