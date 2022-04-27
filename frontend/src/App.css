@@ -75,20 +75,6 @@ button {
   display: grid;
 }
 
-.navbar {
-  /* display: flex; */
-  width: 100%;
-  position: absolute;
-  border: 2px solid blue;
-}
-
-.link {
-  color: white;
-  /* justify-content: space-evenly; */
-  position: relative;
-  width: 100%;
-  border: 2px solid green;
-}
 .mapDiv {
   display: flex;
   position: relative;
@@ -99,7 +85,6 @@ button {
   z-index: -1;
   width: 100%;
   height: 100%;
-  border: 2px solid red;
 }
 .mapHD {
   width: 100%;
@@ -111,21 +96,49 @@ button {
 }
 
 /* Page Synopsis*/
-.titleHyrules{
+.titleHyrules {
   display: flex;
-  flex-direction: center;
-  margin-left: 40rem;
+  flex-wrap: wrap;
+  /* margin-left: 40rem; */
 }
 
 .History {
   color: white;
   display: flex;
   flex-direction: column;
-  margin-right: 4rem;
+  padding: 4rem;
 }
 
 .synopsis {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+.titleHyrules h1{
+  width: 100%;
+  text-align: center;
+}
+
+/* NavbarStyle */
+.navbar {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+  padding-left: 35%;
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.link button {
+  margin: 1rem;
+  background-color: transparent;
+  color: white;
+  border:none ;
+
 }
