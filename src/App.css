@@ -75,20 +75,6 @@ button {
   /* display: grid; */
 }
 
-.navbar {
-  /* display: flex; */
-  width: auto;
-  position: fixed;
-  border: 2px solid blue;
-}
-
-.link {
-  color: white;
-  /* justify-content: space-evenly; */
-  position: relative;
-  width: 100%;
-  border: 2px solid green;
-}
 .mapDiv {
   display: flex;
   position: relative;
@@ -99,7 +85,6 @@ button {
   z-index: -1;
   width: 100%;
   height: 100%;
-  border: 2px solid red;
 }
 .mapHD {
   width: 100%;
@@ -110,49 +95,49 @@ button {
   overflow: auto;
 }
 
-    /* css page hero start*/
+/* css page hero start*/
 
 .Prodige {
   display: flex;
   flex-direction: column;
   overflow-y: scroll;
   overflow-y: hidden;
-  color:red;
+  color: red;
 }
 
 h1 {
-  text-align:center;
+  text-align: center;
   margin-top: 75px;
 }
 
 p {
   text-align: center;
-  }
+}
 
-  .one{
-    display: flex;
-    align-items: center;
-  }
+.one {
+  display: flex;
+  align-items: center;
+}
 
-  .two{
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-  }
+.two {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
 
-  .three{
-    display: flex;
-    align-items: center;
-  }
+.three {
+  display: flex;
+  align-items: center;
+}
 
-  .four{
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-  }
+.four {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
 
-  .one img {
-    display: flex;
+.one img {
+  display: flex;
   width: 30%;
   margin: 20px 0;
 }
@@ -192,17 +177,16 @@ p {
   font-size: 16px;
 }
 
-    /* css page hero end*/
+/* css page hero end*/
 
-    
-    /* MEDIA RESPONSIVE hero*/
+/* MEDIA RESPONSIVE hero*/
 
 @media screen and (min-width: 768px) {
   .one {
     display: flex;
     align-items: center;
   }
-  
+
   .two {
     display: flex;
     align-items: center;
@@ -227,7 +211,7 @@ p {
     padding: 50px;
     width: 30%;
   }
-  
+
   .three img {
     padding: 50px;
     width: 30%;
@@ -245,12 +229,58 @@ p {
   .two p {
     width: 80ch;
   }
-  
+
   .three p {
     width: 80ch;
   }
-  
+
   .four p {
     width: 80ch;
   }
+}
+/* Page Synopsis*/
+.titleHyrules {
+  display: flex;
+  flex-wrap: wrap;
+  /* margin-left: 40rem; */
+}
+
+.History {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+}
+
+.synopsis {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.titleHyrules h1 {
+  width: 100%;
+  text-align: center;
+}
+
+/* NavbarStyle */
+.navbar {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+  padding-left: 35%;
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.link button {
+  margin: 1rem;
+  background-color: transparent;
+  color: white;
+  border: none;
 }
