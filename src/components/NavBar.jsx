@@ -6,19 +6,27 @@ function NavBar() {
     <div className="navbar">
       <div className="link">
         <Link to="/maps">
-          <button type="button"><img src="src/assets/maps.png"/></button>
+          <button type="button">
+            <img src="src/assets/maps.png" alt="Maps" />
+          </button>
         </Link>
 
         <Link to="/history">
-          <button type="button">History</button>
+          <button type="button">
+            <img src="src/assets/logoHistoire.png" alt="History" />
+          </button>
         </Link>
 
         <Link to="/heros">
-          <button type="button">Heros</button>
+          <button type="button">
+            <img src="src/assets/prodige.png" alt="Heros" />
+          </button>
         </Link>
 
         <Link to="/encyclopedia">
-          <button type="button">Encyclopedia</button>
+          <button type="button">
+            <img src="src/assets/logoEncyclopedia.png" alt="Encyclopedia" />
+          </button>
         </Link>
       </div>
     </div>
