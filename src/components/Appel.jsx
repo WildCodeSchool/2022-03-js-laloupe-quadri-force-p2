@@ -20,7 +20,6 @@ const Appel = () => {
   }, []);
   return (
     <div>
-      <h1>Monstre de Zelda BOTW</h1>
       {data.map((monster, index) => (
         <img src={monster.image} alt={index} width="100px" />
       ))}
