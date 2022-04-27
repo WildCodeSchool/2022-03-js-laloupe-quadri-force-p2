@@ -267,9 +267,9 @@ p {
   width: 100%;
   position: absolute;
   display: flex;
-  flex-direction: center;
   align-items: center;
-  padding-left: 35%;
+  box-sizing: border-box;
+  justify-content: center;
 }
 
 .link {
@@ -279,8 +279,11 @@ p {
 }
 
 .link button {
-  margin: 1rem;
+  margin: 0 1rem;
   background-color: transparent;
   color: white;
   border: none;
+}
+.link img {
+  max-height: 65px;
 }
