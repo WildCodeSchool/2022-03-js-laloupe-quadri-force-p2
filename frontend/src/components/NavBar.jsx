@@ -6,7 +6,9 @@ function NavBar() {
     <div className="navbar">
       <div className="link">
         <Link to="/maps">
-          <button type="button"><img src="src/assets/maps.png"/></button>
+          <button type="button">
+            <img src="src/assets/maps.png" alt="map" />
+          </button>
         </Link>
 
         <Link to="/history">
