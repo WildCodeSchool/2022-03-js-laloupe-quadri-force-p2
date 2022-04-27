@@ -109,3 +109,23 @@ button {
 .encyclopedia {
   overflow: auto;
 }
+
+/* Page Synopsis*/
+.titleHyrules{
+  display: flex;
+  flex-direction: center;
+  margin-left: 40rem;
+}
+
+.History {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-right: 4rem;
+}
+
+.synopsis {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
