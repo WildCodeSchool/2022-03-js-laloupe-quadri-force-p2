@@ -6,7 +6,7 @@ const Synopsis = () => {
       <section className="titleHyrules">
         <h1>History Of Hyrules</h1>
         <div className="synopsis">
-          <img src="src/assets/LogoHyrule.png" alt="LogoHyrule" />
+          <img src="src/assets/LogoHyrule.png" alt="Hyrule Logo" />
           <p>
             One hundred years after the battle that led to the death of the
             Prodigies. Link awakens from a long sleep in the Sanctuary of

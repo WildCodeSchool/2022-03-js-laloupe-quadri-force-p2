@@ -56,13 +56,13 @@ button {
 }
 
 .header {
-  position: absolute;
+  position: fixed;
   width: 100%;
   /* height: 100%; */
 }
 
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
 }
@@ -70,9 +70,9 @@ button {
 .mainBody {
   height: 100vh;
   width: 100%;
-  overflow-x: none;
+  /*overflow-x: none;
   overflow-y: hidden;
-  display: grid;
+  /* display: grid; */
 }
 
 .mapDiv {
@@ -95,6 +95,149 @@ button {
   overflow: auto;
 }
 
+/* css page hero start*/
+
+.Prodige {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  overflow-y: hidden;
+  color: red;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 75px;
+}
+
+p {
+  text-align: center;
+}
+
+.one {
+  display: flex;
+  align-items: center;
+}
+
+.two {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.three {
+  display: flex;
+  align-items: center;
+}
+
+.four {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.one img {
+  display: flex;
+  width: 30%;
+  margin: 20px 0;
+}
+
+.two img {
+  width: 30%;
+  margin: 20px 0;
+}
+
+.three img {
+  width: 30%;
+  margin: 20px 0;
+}
+
+.four img {
+  width: 30%;
+  margin: 20px 0;
+}
+
+.one p {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.two p {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.three p {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.four p {
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* css page hero end*/
+
+/* MEDIA RESPONSIVE hero*/
+
+@media screen and (min-width: 768px) {
+  .one {
+    display: flex;
+    align-items: center;
+  }
+
+  .two {
+    display: flex;
+    align-items: center;
+  }
+
+  .three {
+    display: flex;
+    align-items: center;
+  }
+
+  .four {
+    display: flex;
+    align-items: center;
+  }
+
+  .one img {
+    padding: 50px;
+    width: 30%;
+  }
+
+  .two img {
+    padding: 50px;
+    width: 30%;
+  }
+
+  .three img {
+    padding: 50px;
+    width: 30%;
+  }
+
+  .four img {
+    padding: 50px;
+    width: 30%;
+  }
+
+  .one p {
+    width: 80ch;
+  }
+
+  .two p {
+    width: 80ch;
+  }
+
+  .three p {
+    width: 80ch;
+  }
+
+  .four p {
+    width: 80ch;
+  }
+}
 /* Page Synopsis*/
 .titleHyrules {
   display: flex;
