@@ -56,14 +56,12 @@ button {
 }
 
 .header {
-  position: absolute;
   position: fixed;
   width: 100%;
   /* height: 100%; */
 }
 
 .footer {
-  position: absolute;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -80,7 +78,6 @@ button {
 .navbar {
   /* display: flex; */
   width: auto;
-  position: absolute;
   position: fixed;
   border: 2px solid blue;
 }
@@ -118,48 +115,78 @@ button {
 .Prodige {
   display: flex;
   flex-direction: column;
-  color:red;
   overflow-y: scroll;
+  overflow-y: hidden;
+  color:red;
 }
 
 h1 {
-  text-align:center
+  text-align:center;
+  margin-top: 75px;
 }
 
 p {
   text-align: center;
   }
-  
+
+  .one{
+    display: flex;
+    align-items: center;
+  }
+
+  .two{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+
+  .three{
+    display: flex;
+    align-items: center;
+  }
+
+  .four{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+
   .one img {
+    display: flex;
   width: 30%;
   margin: 20px 0;
 }
-.one p {
-  padding: 10px;
-  font-size: 16px;
-}
+
 .two img {
   width: 30%;
   margin: 20px 0;
 }
+
+.three img {
+  width: 30%;
+  margin: 20px 0;
+}
+
+.four img {
+  width: 30%;
+  margin: 20px 0;
+}
+
+.one p {
+  padding: 10px;
+  font-size: 16px;
+}
+
 .two p {
   padding: 10px;
   font-size: 16px;
-  padding-bottom: 30px;
 }
-.three img {
-  width: 100%;
-  margin: 20px 0;
-}
+
 .three p {
   padding: 10px;
   font-size: 16px;
 }
 
-.four img {
-  width: 100%;
-  margin: 20px 0;
-}
 .four p {
   padding: 10px;
   font-size: 16px;
@@ -168,50 +195,61 @@ p {
     /* css page hero end*/
 
     
-    /* MEDIA RESPONSIVE*/
+    /* MEDIA RESPONSIVE hero*/
 
 @media screen and (min-width: 768px) {
   .one {
     display: flex;
     align-items: center;
   }
+  
   .two {
     display: flex;
     align-items: center;
   }
+
   .three {
     display: flex;
     align-items: center;
   }
+
   .four {
     display: flex;
     align-items: center;
   }
+
   .one img {
     padding: 50px;
-    width: 50%;
+    width: 30%;
   }
+
+  .two img {
+    padding: 50px;
+    width: 30%;
+  }
+  
+  .three img {
+    padding: 50px;
+    width: 30%;
+  }
+
+  .four img {
+    padding: 50px;
+    width: 30%;
+  }
+
   .one p {
     width: 80ch;
   }
-  .two img {
-    padding: 50px;
-    width: 50%;
-  }
+
   .two p {
     width: 80ch;
   }
-  .three img {
-    padding: 50px;
-    width: 50%;
-  }
+  
   .three p {
     width: 80ch;
   }
-  .four img {
-    padding: 50px;
-    width: 50%;
-  }
+  
   .four p {
     width: 80ch;
   }
