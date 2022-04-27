@@ -5,10 +5,21 @@ function NavBar() {
   return (
     <div className="navbar">
       <div className="link">
-        <Link to="/maps">map</Link>
-        <Link to="/history">History</Link>
-        <Link to="/heros">Heros</Link>
-        <Link to="/encyclopedia">Encyclopedia</Link>
+        <Link to="/maps">
+          <button type="button"><img src="src/assets/maps.png"/></button>
+        </Link>
+
+        <Link to="/history">
+          <button type="button">History</button>
+        </Link>
+
+        <Link to="/heros">
+          <button type="button">Heros</button>
+        </Link>
+
+        <Link to="/encyclopedia">
+          <button type="button">Encyclopedia</button>
+        </Link>
       </div>
     </div>
   );
