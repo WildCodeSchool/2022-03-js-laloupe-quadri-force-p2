@@ -1,0 +1,17 @@
+[
+null,
+{"id":1,"expanded":false,"name":"fishermen's village","order":4,"parentId":2,"scrollX":1622,"scrollY":923},
+{"id":2,"expanded":true,"name":"Hyrule","order":1,"parentId":0,"scrollX":3556.3636363636365,"scrollY":3530.1818181818185},
+{"id":3,"expanded":false,"name":"Inn","order":5,"parentId":1,"scrollX":1216.5,"scrollY":692.25},
+{"id":4,"expanded":false,"name":"objects store","order":6,"parentId":1,"scrollX":816,"scrollY":640},
+{"id":5,"expanded":false,"name":"house","order":7,"parentId":1,"scrollX":1216.5,"scrollY":692.25},
+{"id":6,"expanded":false,"name":"cave","order":8,"parentId":2,"scrollX":809,"scrollY":472},
+{"id":7,"expanded":false,"name":"City","order":9,"parentId":2,"scrollX":1622,"scrollY":997},
+{"id":8,"expanded":true,"name":"Memory Cave","order":2,"parentId":2,"scrollX":1765.0909090909092,"scrollY":977.4545454545455},
+{"id":9,"expanded":false,"name":"First cave","order":3,"parentId":8,"scrollX":1769.4545454545455,"scrollY":989.4545454545455},
+{"id":10,"expanded":false,"name":"Ma’Ohnu sanctuary","order":10,"parentId":2,"scrollX":1769.4545454545455,"scrollY":989.4545454545455},
+{"id":11,"expanded":false,"name":"Ja’Bashif sanctuary","order":11,"parentId":2,"scrollX":1622,"scrollY":997},
+{"id":12,"expanded":false,"name":"Toumi’Soke sanctuary","order":12,"parentId":2,"scrollX":1622,"scrollY":923},
+{"id":13,"expanded":false,"name":"Wa’Modai sanctuary","order":13,"parentId":2,"scrollX":1622,"scrollY":923},
+{"id":14,"expanded":true,"name":"old temple","order":14,"parentId":2,"scrollX":720.8888888888889,"scrollY":789.7777777777778}
+]
