@@ -102,15 +102,15 @@ button {
   flex-direction: column;
   overflow-y: scroll;
   overflow-y: hidden;
-  color: red;
+  color: white;
 }
 
-h1 {
+.Prodige h1 {
   text-align: center;
   margin-top: 75px;
 }
 
-p {
+.Prodige p {
   text-align: center;
 }
 
@@ -120,17 +120,6 @@ p {
 }
 
 .two {
-  display: flex;
-  align-items: center;
-  flex-direction: row-reverse;
-}
-
-.three {
-  display: flex;
-  align-items: center;
-}
-
-.four {
   display: flex;
   align-items: center;
   flex-direction: row-reverse;
@@ -147,32 +136,12 @@ p {
   margin: 20px 0;
 }
 
-.three img {
-  width: 30%;
-  margin: 20px 0;
-}
-
-.four img {
-  width: 30%;
-  margin: 20px 0;
-}
-
 .one p {
   padding: 10px;
   font-size: 16px;
 }
 
 .two p {
-  padding: 10px;
-  font-size: 16px;
-}
-
-.three p {
-  padding: 10px;
-  font-size: 16px;
-}
-
-.four p {
   padding: 10px;
   font-size: 16px;
 }
@@ -192,16 +161,6 @@ p {
     align-items: center;
   }
 
-  .three {
-    display: flex;
-    align-items: center;
-  }
-
-  .four {
-    display: flex;
-    align-items: center;
-  }
-
   .one img {
     padding: 50px;
     width: 30%;
@@ -212,29 +171,11 @@ p {
     width: 30%;
   }
 
-  .three img {
-    padding: 50px;
-    width: 30%;
-  }
-
-  .four img {
-    padding: 50px;
-    width: 30%;
-  }
-
   .one p {
     width: 80ch;
   }
 
   .two p {
-    width: 80ch;
-  }
-
-  .three p {
-    width: 80ch;
-  }
-
-  .four p {
     width: 80ch;
   }
 }
@@ -265,7 +206,7 @@ p {
 /* NavbarStyle */
 .navbar {
   width: 100%;
-  position: absolute;
+  position: fixed;
   display: flex;
   align-items: center;
   box-sizing: border-box;
