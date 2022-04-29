@@ -95,8 +95,7 @@ button {
   overflow: auto;
 }
 
-/* css page hero start*/
-
+/* css Page Heros start*/
 .Prodige {
   display: flex;
   flex-direction: column;
@@ -146,11 +145,11 @@ button {
   font-size: 16px;
 }
 
-/* css page hero end*/
-
-/* MEDIA RESPONSIVE hero*/
+/* MEDIA RESPONSIVE */
 
 @media screen and (min-width: 768px) {
+  /* Page Synopsis*/
+
   .one {
     display: flex;
     align-items: center;
@@ -202,13 +201,15 @@ button {
   width: 100%;
   text-align: center;
 }
+.synopsis img {
+  max-width: 50%;
+}
 
 /* NavbarStyle */
 .navbar {
   width: 100%;
   position: fixed;
   display: flex;
-  align-items: center;
   box-sizing: border-box;
   justify-content: center;
 }
@@ -227,4 +228,6 @@ button {
 }
 .link img {
   max-height: 65px;
+  width: auto;
+  height: 4vw;
 }
