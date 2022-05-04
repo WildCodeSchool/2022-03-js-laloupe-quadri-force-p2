@@ -1,4 +1,5 @@
 body {
+  overflow: hidden;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -56,12 +57,15 @@ button {
 }
 
 .header {
+  pointer-events: none;
+  z-index: 1;
   position: fixed;
   width: 100%;
   /* height: 100%; */
 }
 
 .footer {
+  pointer-events: none;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -82,13 +86,14 @@ button {
   padding: 0;
   top: 0px;
   right: 0px;
-  z-index: -1;
+  /* z-index: 4;
+  opacity: 0.5; */
   width: 100%;
   height: 100%;
 }
 .mapHD {
-  width: 100%;
-  height: auto;
+  width: 100vw;
+  height: 100vh;
   align-content: center;
 }
 .encyclopedia {
@@ -207,6 +212,7 @@ button {
 
 /* NavbarStyle */
 .navbar {
+  z-index: 5;
   width: 100%;
   position: fixed;
   display: flex;
