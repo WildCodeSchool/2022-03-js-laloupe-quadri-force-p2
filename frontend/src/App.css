@@ -30,6 +30,10 @@ code {
 .App-link {
   color: #61dafb;
 }
+#LinkTo404 {
+  opacity: 0;
+  cursor: grab;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -236,6 +240,6 @@ button {
   cursor: pointer;
 }
 
-.link a{
-  cursor:default;
+.link a {
+  cursor: default;
 }

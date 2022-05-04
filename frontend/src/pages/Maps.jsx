@@ -8,7 +8,7 @@ function ImageMagnifier({
   height,
   magnifierHeight = 250,
   magnifieWidth = 250,
-  zoomLevel = 10,
+  zoomLevel = 5,
 }) {
   const [[x, y], setXY] = useState([0, 0]);
   const [[imgWidth, imgHeight], setSize] = useState([0, 0]);
@@ -63,7 +63,7 @@ function ImageMagnifier({
           height: `${magnifierHeight}px`,
           width: `${magnifieWidth}px`,
           // move element center to cursor pos
-          top: `${y}px`,
+          top: `${y - magnifierHeight / 2}px`,
           left: `${x}px`,
           opacity: "1", // reduce opacity so you can verify position
           border: "1px solid lightgray",
