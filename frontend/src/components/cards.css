@@ -8,7 +8,8 @@
   display: flex;
   flex-direction: row;
   margin-top: 10rem;
-  overflow: scroll;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 
 .cards img {
