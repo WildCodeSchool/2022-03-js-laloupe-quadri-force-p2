@@ -28,6 +28,12 @@ function NavBar() {
             <img src="src/assets/logoEncyclopedia.png" alt="Encyclopedia" />
           </button>
         </Link>
+        <Link to="/welcome" id="LinkTo404">
+          404
+          {/* <button type="button"> */}
+          {/* <img src="src/assets/logoEncyclopedia.png" alt="Encyclopedia" /> */}
+          {/* </button> */}
+        </Link>
       </div>
     </div>
   );
