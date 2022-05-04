@@ -1,49 +1,5 @@
-/* .card {
-  position: relative;
-  height: 100px;
-  width: 160px;
-  border-radius: 4px;
-} */
-
-/* .cards h3 {
-  color: red;
-  font-size: 1rem;
-  text-decoration: none;
-} */
-
-/* .infos {
-  color: yellow;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 10px;
-} */
-
-/* .cards img {
-  height: 100px;
-  width: 160px;
-  border-radius: 10px;
- }
-
-.cards p {
-  text-align: center;
-} */
-
-/* .selectionRadio {
-  min-height: 100vh;
-  display: flex;
-  flex-direction:center ;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-} */
-
 .selectionRadio {
   width: 100%;
-  /* position:fixed; */
   display: flex;
   box-sizing: border-box;
   justify-content: center;
@@ -52,38 +8,32 @@
   display: flex;
   flex-direction: row;
   margin-top: 10rem;
+  overflow: scroll;
 }
 
-/*test*/
-
-/* .cards {
-  background-color: hsl(0, 90%, 60%);
-  border-radius: 3px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
-  cursor: pointer;
-  margin: 1rem;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-  color: rgb(56, 66, 78);
-} */
-
 .cards img {
-  max-width: 100%;
-  /* flex-direction: flex;
-  align-items: left; */
+  max-width: 10rem;
+  max-height: 10rem;
+  display: flex;
+  border-radius: 10%;
+  box-shadow: -1rem 10px 5px -5px #040458;
+  justify-content: space-evenly;
 }
 
 .cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  color: #719ef1;
+  font-size: 1rem;
 }
 
 .cards h3 {
-  width: 100%;
+  width: 50%;
   text-align: center;
-  font-size: 2rem;
+  color: #3577f3;
+  font-size: 1.5rem;
+  text-transform: uppercase;
 }
 
 .filterName {
@@ -95,6 +45,7 @@
   margin-top: -5rem;
   list-style-type: none;
   left: 0%;
+  color: #3577f3;
 }
 
 .filterName ul {
