@@ -25,7 +25,7 @@ const Appel = () => {
       } else items = res.data.data[selectedRadio];
 
       setData(items);
-      console.warn(res.data.data);
+      // console.warn(res.data.data);
     });
   }, [selectedRadio]);
   // console.log(rangeValue);
@@ -56,7 +56,11 @@ const Appel = () => {
       </ul>
       <ul>
         {data.map((monster) => (
-          <Cards key={`monster-${monster.id}`} monster={monster} />
+          <Cards
+            key={`monster-${monster.id}`}
+            monster={monster}
+            className="card"
+          />
         ))}
       </ul>
     </div>
