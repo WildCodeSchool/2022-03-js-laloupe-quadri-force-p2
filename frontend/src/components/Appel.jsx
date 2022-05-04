@@ -5,7 +5,7 @@ import Cards from "./Cards";
 const Appel = () => {
   const [data, setData] = useState([]);
   // const [rangeValue, setRangeValue] = useState(1);
-  const [selectedRadio, setSelectedRadio] = useState("treasure");
+  const [selectedRadio, setSelectedRadio] = useState("monsters");
   const radios = [
     "creatures-food",
     "creatures-non-food",

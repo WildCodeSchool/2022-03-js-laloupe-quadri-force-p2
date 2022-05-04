@@ -8,8 +8,8 @@ const Cards = ({ monster, index }) => {
       <img src={monster.image} alt={index} />
       <figcaption className="infos">
         <h3>{monster.name}</h3>
-        <p>{monster.description}</p>
       </figcaption>
+      <p>{monster.description}</p>
     </figure>
   );
 };
