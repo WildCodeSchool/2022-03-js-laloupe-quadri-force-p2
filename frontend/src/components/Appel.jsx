@@ -27,20 +27,11 @@ const Appel = () => {
       setData(items);
       console.warn(res.data.data);
     });
-    // axios
-    //   .get("https://zelda.fanapis.com/api/characters?limit=100")
-    //   .then((res) => console.warn("API ZELDA/characters : ", res.data));
-    // axios
-    //   .get("https://zelda.fanapis.com/api/items")
-    //   .then((res) => console.warn("API ZELDA/items : ", res.data));
-    // axios
-    //   .get("https://zelda.fanapis.com/api/places?limit=100")
-    //   .then((res) => console.warn("API ZELDA/places : ", res.data));
   }, [selectedRadio]);
   // console.log(rangeValue);
   return (
-    <div className="App-header">
-      <ul style={{ zIndex: 1000 }}>
+    <div className="selectionRadio">
+      <ul>
         {/* <input
           type="range"
           min="1"
@@ -48,22 +39,22 @@ const Appel = () => {
           defaultValue={rangeValue}
           onChange={(e) => setRangeValue(e.target.value)}
         /> */}
-        {radios.map((categorie) => (
-          <li>
-            <input
-              type="radio"
-              id={categorie}
-              name="reglageCategorie"
-              checked={categorie === selectedRadio}
-              onChange={(e) => setSelectedRadio(e.target.id)}
-            />
-            <label htmlFor={categorie}>{categorie}</label>
-          </li>
-        ))}
+        <div className="filterName">
+          {radios.map((categorie) => (
+            <li>
+              <input
+                type="radio"
+                id={categorie}
+                name="reglageCategorie"
+                checked={categorie === selectedRadio}
+                onChange={(e) => setSelectedRadio(e.target.id)}
+              />
+              <label htmlFor={categorie}>{categorie}</label>
+            </li>
+          ))}
+        </div>
       </ul>
-
       <ul>
-        test
         {data.map((monster) => (
           <Cards key={`monster-${monster.id}`} monster={monster} />
         ))}
