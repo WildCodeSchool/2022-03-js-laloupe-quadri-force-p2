@@ -25,7 +25,7 @@ const Appel = () => {
       } else items = res.data.data[selectedRadio];
 
       setData(items);
-      console.warn(res.data.data);
+      // console.warn(res.data.data);
     });
     // axios
     //   .get("https://zelda.fanapis.com/api/characters?limit=100")
@@ -63,9 +63,12 @@ const Appel = () => {
       </ul>
 
       <ul>
-        test
         {data.map((monster) => (
-          <Cards key={`monster-${monster.id}`} monster={monster} />
+          <Cards
+            key={`monster-${monster.id}`}
+            monster={monster}
+            className="card"
+          />
         ))}
       </ul>
     </div>
