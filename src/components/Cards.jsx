@@ -4,13 +4,15 @@ import "./cards.css";
 
 const Cards = ({ monster, index }) => {
   return (
-    <figure className="cards">
-      <img src={monster.image} alt={index} />
-      <figcaption className="infos">
+    <div className="uc">
+      <figure className="cards">
+        <img src={monster.image} alt={index} />
+      </figure>
+      <div className="infos">
         <h3>{monster.name}</h3>
         <p>{monster.description}</p>
-      </figcaption>
-    </figure>
+      </div>
+    </div>
   );
 };
 
