@@ -65,12 +65,12 @@ button {
 
 .mainBody {
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   /*overflow-x: none;
   overflow-y: hidden;
   /* display: grid; */
 }
-
+/* css map HD */
 .mapDiv {
   display: flex;
   position: relative;
@@ -80,15 +80,46 @@ button {
   right: 0px;
   /* z-index: 4;
   opacity: 0.5; */
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  cursor: crosshair;
-}
-.mapHD {
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
+}
+.mapHD {
+  width: 100%;
+  height: 100%;
   align-content: center;
+  cursor: crosshair;
+}
+
+/* CSS page404 */
+.EggDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  top: 0px;
+  right: 0px;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.EggDiv h2,
+h1 {
+  font-size: 1.5rem;
+  color: aqua;
+}
+.EggHD {
+  /* margin-top: 5%;*/
+  /* margin-bottom: 10%; */
+  z-index: 1000;
+  width: 50%;
+  height: 50%;
+  align-content: center;
+}
+.EggButton {
+  background-color: blue;
 }
 
 /* Encyclopedia */

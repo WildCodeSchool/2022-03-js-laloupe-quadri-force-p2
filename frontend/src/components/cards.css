@@ -24,14 +24,14 @@
 .cards img {
   max-width: 10rem;
   max-height: 10rem;
-  display: flex;
+  /* display: flex; */
   border-radius: 10%;
   box-shadow: -1rem 10px 5px -5px #040458;
   justify-content: space-evenly;
 }
 
 .cards {
-  display: flex;
+  /* display: flex; */
   flex-wrap: wrap;
   justify-content: space-evenly;
 
@@ -44,6 +44,7 @@
   color: #3577f3;
   font-size: 1.5rem;
   text-transform: uppercase;
+  margin-top: 0;
 }
 
 .infos p {
