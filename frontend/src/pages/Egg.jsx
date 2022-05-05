@@ -1,13 +1,26 @@
+import "../components/Button.scss";
+
 export default function Egg() {
   return (
-    <div className="EggDiv">
-      <h1>ERROR 404</h1>
-      <h2>IT LOOKS LIKE YOU FOUND A</h2>
-      <h1>DEAD LINK</h1>
-      <img className="EggHD" src="/src/assets/EasterEggBis.png" alt="" />
-      <button type="submit" className="EggButton">
-        SAVE AND CONTINUE
-      </button>
-    </div>
+    <section className="myeggsection">
+      <div className="EggDiv">
+        <h1>ERROR 404</h1>
+        <h2>IT LOOKS LIKE YOU FOUND A</h2>
+        <h1>DEAD LINK</h1>
+        <img className="EggHD" src="/src/assets/EasterEggBis.png" alt="" />
+        <a
+          className="decorated-button"
+          href="https://www.youtube.com/watch?v=cGufy1PAeTU"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div className="button-text">Save and Continue</div>
+          <div className="left-decoration top" />
+          <div className="left-decoration bottom" />
+          <div className="right-decoration top" />
+          <div className="right-decoration bottom" />
+        </a>
+      </div>
+    </section>
   );
 }
