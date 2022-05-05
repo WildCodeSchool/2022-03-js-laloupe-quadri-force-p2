@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -96,7 +102,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
+  position: absolute;
   margin: 0;
   padding: 0;
   top: 0px;
@@ -104,6 +110,7 @@ button {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
+  padding-top: 130px;
 }
 .EggDiv h2,
 h1 {
@@ -115,11 +122,18 @@ h1 {
   /* margin-bottom: 10%; */
   z-index: 1000;
   width: 50%;
-  height: 50%;
+  height: auto;
   align-content: center;
 }
 .EggButton {
   background-color: blue;
+}
+
+@media screen and (max-height: 500px) {
+  .EggDiv {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
 }
 
 /* Encyclopedia */
@@ -127,8 +141,10 @@ h1 {
 .encyclopedia {
   display: flex;
   flex-direction: column;
-  overflow-y: scroll;
+  /* overflow-y: scroll;*/
   overflow-y: hidden;
+  overflow-y: scroll;
+  scrollbar-width: none;
   color: white;
 }
 
