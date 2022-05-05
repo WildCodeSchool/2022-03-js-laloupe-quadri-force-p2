@@ -105,16 +105,21 @@ button {
   height: 100vh;
   overflow: hidden;
 }
-.EggDiv h2 {
+.EggDiv h2,
+h1 {
   font-size: 1.5rem;
+  color: aqua;
 }
 .EggHD {
   /* margin-top: 5%;*/
   /* margin-bottom: 10%; */
   z-index: 1000;
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
   align-content: center;
+}
+.EggButton {
+  background-color: blue;
 }
 
 /* Encyclopedia */
