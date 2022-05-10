@@ -64,9 +64,6 @@
   list-style-type: none;
   left: 0%;
   color: #3577f3;
-}
-
-.filterName ul {
   display: flex;
   justify-content: center;
 }
