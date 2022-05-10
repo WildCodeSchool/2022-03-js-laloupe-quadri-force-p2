@@ -2,7 +2,7 @@ import Appel from "@components/Appel";
 
 const Encyclopedia = () => {
   return (
-    <div className="encyclopedia">
+    <div className="encyclopediaPage">
       <Appel />
     </div>
   );
