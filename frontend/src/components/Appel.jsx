@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import Cards from "./Cards";
+import Search from "./SearchBar";
 
 const Appel = () => {
   const [data, setData] = useState([]);
@@ -29,41 +30,46 @@ const Appel = () => {
     });
   }, [selectedRadio]);
   // console.log(rangeValue);
+
+  const [searchValue, setSearchValue] = useState("");
+
   return (
-    <div className="selectionRadio">
-      <ul>
-        {/* <input
-          type="range"
-          min="1"
-          max="250"
-          defaultValue={rangeValue}
-          onChange={(e) => setRangeValue(e.target.value)}
-        /> */}
-        <div className="filterName">
-          {radios.map((categorie) => (
-            <li>
-              <input
-                type="radio"
-                id={categorie}
-                name="reglageCategorie"
-                checked={categorie === selectedRadio}
-                onChange={(e) => setSelectedRadio(e.target.id)}
+    <>
+      <div className="selectionRadio">
+        <ul>
+          <div className="filterName">
+            {radios.map((categorie) => (
+              <li>
+                <input
+                  type="radio"
+                  id={categorie}
+                  name="reglageCategorie"
+                  checked={categorie === selectedRadio}
+                  onChange={(e) => setSelectedRadio(e.target.id)}
+                />
+                <label htmlFor={categorie}>{categorie}</label>
+              </li>
+            ))}
+          </div>
+        </ul>
+        <ul>
+          {data
+            .filter(
+              (item) =>
+                !searchValue ||
+                item.name.toLowerCase().includes(searchValue.toLowerCase())
+            )
+            .map((monster) => (
+              <Cards
+                key={`monster-${monster.id}`}
+                monster={monster}
+                className="card"
               />
-              <label htmlFor={categorie}>{categorie}</label>
-            </li>
-          ))}
-        </div>
-      </ul>
-      <ul className="card_scroll">
-        {data.map((monster) => (
-          <Cards
-            key={`monster-${monster.id}`}
-            monster={monster}
-            className="card"
-          />
-        ))}
-      </ul>
-    </div>
+            ))}
+        </ul>
+      </div>
+      <Search searchValue={searchValue} setSearchValue={setSearchValue} />
+    </>
   );
 };
 export default Appel;

@@ -1,5 +1,4 @@
 import Appel from "@components/Appel";
-import React from "react";
 
 const Encyclopedia = () => {
   return (
