@@ -5,7 +5,7 @@ const Heros = () => {
     <div className="Prodige">
       <h1>Presentation of the legends</h1>
       <section className="one">
-        <img src="src/assets/Mipha.webp" alt="status" />
+        <img src="src/assets/images/Mipha.webp" alt="status" />
         <p>
           Mipha is the Prodigy of the Zoras, of which she is the princess. She
           is the daughter of King Dorefah and the sister of Prince Sidon. She is
@@ -40,7 +40,7 @@ const Heros = () => {
         </p>
       </section>
       <section className="two">
-        <img src="src/assets/Daruk.webp" alt="status" />
+        <img src="src/assets/images/Daruk.webp" alt="status" />
         <p>
           Daruk is the Prodigy of the Gorons and one of their great warriors. He
           looks a lot like Darunia from Ocarina of Time. His name is inspired by
@@ -66,7 +66,7 @@ const Heros = () => {
         </p>
       </section>
       <section className="one">
-        <img src="src/assets/Revali.webp" alt="status" />
+        <img src="src/assets/images/Revali.webp" alt="status" />
         <p>
           Revali is the Prodigy of the Piafs and, according to him, the best
           archer of his people. He rules the divine creature Vah&apos;reMedoh
@@ -88,7 +88,7 @@ const Heros = () => {
         </p>
       </section>
       <section className="two">
-        <img src="src/assets/Urbosa.webp" alt="status" />
+        <img src="src/assets/images/Urbosa.webp" alt="status" />
         <p>
           Urbosa is the Prodigy of the Gerudos and their queen, as well as the
           ancestor of Riju. She pilots the divine creature Vah&apos;re Naboris
@@ -115,7 +115,7 @@ const Heros = () => {
         </p>
       </section>
       <section className="one">
-        <img src="src/assets/Zelda.png" alt="status" />
+        <img src="src/assets/images/Zelda.png" alt="status" />
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi
           aliquid sequi, accusamus repellat ipsam, soluta architecto consequatur
@@ -144,7 +144,7 @@ const Heros = () => {
         </p>
       </section>
       <section className="two">
-        <img src="src/assets/Link.webp" alt="status" />
+        <img src="src/assets/images/Link.webp" alt="status" />
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi
           aliquid sequi, accusamus repellat ipsam, soluta architecto consequatur
@@ -173,7 +173,7 @@ const Heros = () => {
         </p>
       </section>
       <section className="one">
-        <img src="src/assets/Ganon.webp" alt="status" />
+        <img src="src/assets/images/Ganon.webp" alt="status" />
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi
           aliquid sequi, accusamus repellat ipsam, soluta architecto consequatur

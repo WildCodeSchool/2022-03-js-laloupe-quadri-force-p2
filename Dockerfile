@@ -15,5 +15,7 @@ RUN rm -rf /etc/nginx/conf.d
 RUN mkdir -p /etc/nginx/conf.d
 COPY ./default.conf /etc/nginx/conf.d/
 COPY --from=builder /usr/src/app/dist /usr/share/nginx/html
-EXPOSE 80
+RUN mkdir -p /usr/share/nginx/html/src/assets/images
+COPY ./src/assets/images /usr/share/nginx/html/src/assets/images
+EXPOSE 8080
 CMD ["nginx", "-g", "daemon off;"]

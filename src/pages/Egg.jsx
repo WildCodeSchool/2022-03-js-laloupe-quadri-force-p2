@@ -7,7 +7,11 @@ export default function Egg() {
         <h1>ERROR 404</h1>
         <h2>IT LOOKS LIKE YOU FOUND A</h2>
         <h1>DEAD LINK</h1>
-        <img className="EggHD" src="/src/assets/EasterEggBis.png" alt="" />
+        <img
+          className="EggHD"
+          src="/src/assets/images/EasterEggBis.png"
+          alt=""
+        />
         <a
           className="decorated-button"
           href="http://127.0.0.1:5501/index.html"

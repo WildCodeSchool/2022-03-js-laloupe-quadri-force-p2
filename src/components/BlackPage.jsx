@@ -5,7 +5,7 @@ const BlackPage = () => {
     <div className="BlackPage">
       <h1>Please use the landscape mode</h1>
       <img
-        src="src/assets/bouton_on_off.png"
+        src="src/assets/images/bouton_on_off.png"
         alt="bouton on/off"
         className="BlackBouton"
       />
