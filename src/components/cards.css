@@ -7,14 +7,14 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-top: 10rem;
 }
-.selectionRadio ul {
+
+/* .selectionRadio ul {
   display: flex;
   flex-direction: row;
   margin-top: 10rem;
-  /* overflow-x: auto;
-  overflow-y: hidden; */
-}
+} */
 .infos {
   display: flex;
   justify-content: center;
@@ -68,7 +68,7 @@
 
 .filterName {
   width: 100%;
-  position: fixed;
+  position: absolute;
   display: flex;
   box-sizing: border-box;
   justify-content: center;
