@@ -8,10 +8,12 @@ import Encyclopedia from "@pages/Encyclopedia";
 import Egg from "@pages/Egg";
 import Footer from "@components/Footer";
 import Background from "@components/Background.jsx";
+import BlackPage from "@components/BlackPage";
 
 export default function App() {
   return (
     <div className="mainBody">
+      <BlackPage />
       <Background />
       <Header />
       <Routes>

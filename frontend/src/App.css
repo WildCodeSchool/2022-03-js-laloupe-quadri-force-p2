@@ -1,9 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -11,6 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 code {
@@ -72,9 +70,6 @@ button {
 .mainBody {
   height: 100vh;
   width: 100vw;
-  /*overflow-x: none;
-  overflow-y: hidden;
-  /* display: grid; */
 }
 /* css map HD */
 .mapDiv {
@@ -84,11 +79,8 @@ button {
   padding: 0;
   top: 0px;
   right: 0px;
-  /* z-index: 4;
-  opacity: 0.5; */
   width: 100vw;
   height: 100vh;
-  overflow: hidden;
 }
 .mapHD {
   width: 100%;
@@ -102,15 +94,13 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: absolute;
-  margin: 0;
+  position: relative;
+  margin: 10% 0 0 0;
   padding: 0;
   top: 0px;
   right: 0px;
   width: 100vw;
   height: 100vh;
-  overflow: hidden;
-  padding-top: 130px;
 }
 .EggDiv h2,
 h1 {
@@ -118,22 +108,13 @@ h1 {
   color: aqua;
 }
 .EggHD {
-  /* margin-top: 5%;*/
-  /* margin-bottom: 10%; */
-  z-index: 1000;
+  z-index: 500;
   width: 50%;
-  height: auto;
+  height: 50%;
   align-content: center;
 }
 .EggButton {
   background-color: blue;
-}
-
-@media screen and (max-height: 500px) {
-  .EggDiv {
-    padding-top: 50px;
-    padding-bottom: 30px;
-  }
 }
 
 /* Encyclopedia */
@@ -141,10 +122,6 @@ h1 {
 .encyclopedia {
   display: flex;
   flex-direction: column;
-  /* overflow-y: scroll;*/
-  overflow-y: hidden;
-  overflow-y: scroll;
-  scrollbar-width: none;
   color: white;
 }
 
@@ -152,8 +129,6 @@ h1 {
 .Prodige {
   display: flex;
   flex-direction: column;
-  overflow-y: scroll;
-  overflow-y: hidden;
   color: white;
 }
 
@@ -235,7 +210,6 @@ h1 {
 .titleHyrules {
   display: flex;
   flex-wrap: wrap;
-  /* margin-left: 40rem; */
 }
 
 .History {
@@ -250,9 +224,11 @@ h1 {
   flex-direction: row;
   align-items: center;
 }
+
 .titleHyrules h1 {
   width: 100%;
   text-align: center;
+  margin-top: 5%;
 }
 .synopsis img {
   max-width: 50%;
@@ -289,4 +265,31 @@ h1 {
 
 .link a {
   cursor: default;
+}
+
+/* style du mode landscape */
+
+.BlackPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  z-index: 1200;
+}
+
+.BlackBouton {
+  width: 10%;
+  height: auto;
+  margin-top: 15%;
+}
+
+@media (orientation: landscape) {
+  .BlackPage {
+    display: none;
+    z-index: -100;
+  }
 }
