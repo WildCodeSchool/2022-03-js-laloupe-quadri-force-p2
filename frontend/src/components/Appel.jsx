@@ -54,7 +54,7 @@ const Appel = () => {
           ))}
         </div>
       </ul>
-      <ul>
+      <ul className="card_scroll">
         {data.map((monster) => (
           <Cards
             key={`monster-${monster.id}`}

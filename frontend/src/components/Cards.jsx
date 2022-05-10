@@ -5,7 +5,7 @@ import "./cards.css";
 const Cards = ({ monster, index }) => {
   return (
     <div className="uc">
-      <figure className="cards">
+      <figure className="cardsfigure">
         <img src={monster.image} alt={index} />
       </figure>
       <div className="infos">
