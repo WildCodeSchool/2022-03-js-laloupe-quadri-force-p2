@@ -14,7 +14,7 @@ export default function Egg() {
         />
         <a
           className="decorated-button"
-          href="http://127.0.0.1:5501/index.html"
+          href="https://triforce-second-front.laloupe-1.wilders.dev/"
           target="_blank"
           rel="noreferrer"
         >
