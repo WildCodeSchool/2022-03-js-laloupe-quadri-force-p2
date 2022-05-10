@@ -21,7 +21,7 @@
   flex-direction: column;
   align-items: center;
 }
-.cards img {
+.cardsfigure img {
   max-width: 10rem;
   max-height: 10rem;
   /* display: flex; */
@@ -68,7 +68,7 @@
 
 .filterName {
   width: 100%;
-  position: absolute;
+  position: fixed;
   display: flex;
   box-sizing: border-box;
   justify-content: center;
@@ -79,3 +79,8 @@
   display: flex;
   justify-content: center;
 }
+
+/* .encyclopediaIMG{
+  display: wrap;
+  margin-left: 10%;
+} */

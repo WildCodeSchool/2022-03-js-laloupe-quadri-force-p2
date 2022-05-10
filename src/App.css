@@ -119,12 +119,14 @@ h1 {
 
 /* Encyclopedia */
 
-.encyclopedia {
+.encyclopediaPage {
   display: flex;
   flex-direction: column;
-  color: white;
 }
-
+.encyclopediaIMG {
+  display: wrap;
+  margin-left: 10%;
+}
 /* css Page Heros start*/
 .Prodige {
   display: flex;
