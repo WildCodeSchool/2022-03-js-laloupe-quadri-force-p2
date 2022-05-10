@@ -10,7 +10,7 @@ export default function Egg() {
         <img className="EggHD" src="/src/assets/EasterEggBis.png" alt="" />
         <a
           className="decorated-button"
-          href="https://www.youtube.com/watch?v=cGufy1PAeTU"
+          href="http://127.0.0.1:5501/index.html"
           target="_blank"
           rel="noreferrer"
         >
