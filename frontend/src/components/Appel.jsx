@@ -35,26 +35,24 @@ const Appel = () => {
 
   return (
     <div className="selectionRadio">
-      <ul>
-        <div className="filterName">
-          {radios.map((categorie) => (
-            <li>
-              <input
-                type="radio"
-                id={categorie}
-                name="reglageCategorie"
-                checked={categorie === selectedRadio}
-                onChange={(e) => setSelectedRadio(e.target.id)}
-              />
-              <label htmlFor={categorie}>{categorie}</label>
-            </li>
-          ))}
-          <div className="positionSearchBar">
-            <Search searchValue={searchValue} setSearchValue={setSearchValue} />
-          </div>
-        </div>
+      <ul className="filterName">
+        {radios.map((categorie) => (
+          <li>
+            <input
+              type="radio"
+              id={categorie}
+              name="reglageCategorie"
+              checked={categorie === selectedRadio}
+              onChange={(e) => setSelectedRadio(e.target.id)}
+            />
+            <label htmlFor={categorie}>{categorie}</label>
+          </li>
+        ))}
       </ul>
-      <ul className="encyclopediaIMG">
+      <div className="positionSearchBar">
+        <Search searchValue={searchValue} setSearchValue={setSearchValue} />
+      </div>
+      <ul id="encyclopediaIMG">
         {data
           .filter(
             (item) =>
