@@ -124,7 +124,6 @@ h1 {
   flex-direction: column;
 }
 
-
 /* css Page Heros start*/
 .Prodige {
   display: flex;
@@ -279,6 +278,7 @@ h1 {
   height: 100vh;
   background-color: black;
   z-index: 1200;
+  scroll-behavior: 0;
 }
 
 .BlackBouton {
