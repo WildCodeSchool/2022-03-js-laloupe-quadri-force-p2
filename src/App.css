@@ -119,10 +119,9 @@ h1 {
 
 /* Encyclopedia */
 
-.encyclopedia {
+.encyclopediaPage {
   display: flex;
   flex-direction: column;
-  color: white;
 }
 
 /* css Page Heros start*/
@@ -276,9 +275,10 @@ h1 {
   justify-content: center;
   position: absolute;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   background-color: black;
   z-index: 1200;
+  overflow: hidden;
 }
 
 .BlackBouton {
@@ -293,3 +293,8 @@ h1 {
     z-index: -100;
   }
 }
+@media (orientation: portrait) {
+  .mainBody {
+    overflow: hidden;
+  }
+} ;

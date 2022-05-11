@@ -34,42 +34,40 @@ const Appel = () => {
   const [searchValue, setSearchValue] = useState("");
 
   return (
-    <>
-      <div className="selectionRadio">
-        <ul>
-          <div className="filterName">
-            {radios.map((categorie) => (
-              <li>
-                <input
-                  type="radio"
-                  id={categorie}
-                  name="reglageCategorie"
-                  checked={categorie === selectedRadio}
-                  onChange={(e) => setSelectedRadio(e.target.id)}
-                />
-                <label htmlFor={categorie}>{categorie}</label>
-              </li>
-            ))}
-          </div>
-        </ul>
-        <ul>
-          {data
-            .filter(
-              (item) =>
-                !searchValue ||
-                item.name.toLowerCase().includes(searchValue.toLowerCase())
-            )
-            .map((monster) => (
-              <Cards
-                key={`monster-${monster.id}`}
-                monster={monster}
-                className="card"
-              />
-            ))}
-        </ul>
+    <div className="selectionRadio">
+      <ul className="filterName">
+        {radios.map((categorie) => (
+          <li>
+            <input
+              type="radio"
+              id={categorie}
+              name="reglageCategorie"
+              checked={categorie === selectedRadio}
+              onChange={(e) => setSelectedRadio(e.target.id)}
+            />
+            <label htmlFor={categorie}>{categorie}</label>
+          </li>
+        ))}
+      </ul>
+      <div className="positionSearchBar">
+        <Search searchValue={searchValue} setSearchValue={setSearchValue} />
       </div>
-      <Search searchValue={searchValue} setSearchValue={setSearchValue} />
-    </>
+      <ul id="encyclopediaIMG">
+        {data
+          .filter(
+            (item) =>
+              !searchValue ||
+              item.name.toLowerCase().includes(searchValue.toLowerCase())
+          )
+          .map((monster) => (
+            <Cards
+              key={`monster-${monster.id}`}
+              monster={monster}
+              className="card"
+            />
+          ))}
+      </ul>
+    </div>
   );
 };
 export default Appel;

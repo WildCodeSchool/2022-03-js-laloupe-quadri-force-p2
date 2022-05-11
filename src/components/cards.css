@@ -6,22 +6,22 @@
 .selectionRadio {
   width: 100%;
   display: flex;
-  justify-content: center;
-}
-.selectionRadio ul {
-  display: flex;
-  flex-direction: row;
-  margin-top: 10rem;
-  /* overflow-x: auto;
-  overflow-y: hidden; */
-}
-.infos {
-  display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+  /* overflow: hidden; */
 }
-.cards img {
+
+.infos {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  max-width: 12rem;
+  overflow: auto;
+}
+.cardsfigure img {
   max-width: 10rem;
   max-height: 10rem;
   /* display: flex; */
@@ -47,7 +47,7 @@
   justify-content: space-evenly;
   /* overflow: auto; */
 
-  margin: 0 80px;
+  /* margin: 0 80px; */
 }
 
 .infos h3 {
@@ -67,15 +67,36 @@
 }
 
 .filterName {
-  width: 100%;
-  position: absolute;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 80%;
   box-sizing: border-box;
-  justify-content: center;
-  margin-top: -5rem;
   list-style-type: none;
-  left: 0%;
   color: #3577f3;
+}
+.filterName li input {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.filterName li label {
+  cursor: pointer;
+}
+
+ul#encyclopediaIMG {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 0;
+}
+
+.uc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.5em 0.2em;
+  max-height: 300px;
 }
