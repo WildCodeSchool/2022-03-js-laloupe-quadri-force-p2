@@ -14,7 +14,7 @@ function Search({ searchValue, setSearchValue }) {
         type="text"
         name="searchBar"
         id="searchBar"
-        placeholder="Rechercher"
+        placeholder="Search"
         value={searchValue}
         onChange={(e) => setSearchValue(e.target.value)}
       />
