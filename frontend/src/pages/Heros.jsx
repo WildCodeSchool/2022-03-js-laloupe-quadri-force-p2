@@ -117,88 +117,115 @@ const Heros = () => {
       <section className="one">
         <img src="src/assets/Zelda.png" alt="status" />
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi
-          aliquid sequi, accusamus repellat ipsam, soluta architecto consequatur
-          hic voluptas delectus optio quae saepe aperiam harum sit! Incidunt
-          deleniti perferendis asperiores. Lorem ipsum dolor sit amet
-          consectetur, adipisicing elit. Molestias, atque autem vero voluptates
-          minus optio, nesciunt accusantium similique maxime laborum vel magnam
-          veritatis nihil est perferendis! Quod ullam atque cum. Lorem, ipsum
-          dolor sit amet consectetur adipisicing elit. Consequuntur illo nostrum
-          recusandae aut ut, atque laudantium neque rem porro aliquid
-          perspiciatis. Nam ex, numquam repellat iusto eum quasi? Labore,
-          incidunt.
+          Princess Zelda, member of the royal family of Hyrule and to whom the
+          series owes its name, is a main character in most episodes. Generally
+          being kidnapped or threatened by an evil being - Ganon or other - at
+          the start of the game, it is to save her that Link goes on an
+          adventure. Like the hero, her age varies from one episode to another,
+          from little girl to young woman. In some games, she demonstrates
+          special skills such as magic, telepathy and even the ability to
+          predict the future. Princess Zelda also holds the Triforce of Wisdom.
+          She also takes on a very special role in Skyward Sword, as she turns
+          out to be the human reincarnation of the goddess Hylia.
           <br />
           <br />
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi
-          aliquid sequi, accusamus repellat ipsam, soluta architecto consequatur
-          hic voluptas delectus optio quae saepe aperiam harum sit! Incidunt
-          deleniti perferendis asperiores. Lorem ipsum dolor sit amet
-          consectetur, adipisicing elit. Molestias, atque autem vero voluptates
-          minus optio, nesciunt accusantium similique maxime laborum vel magnam
-          veritatis nihil est perferendis! Quod ullam atque cum. Lorem, ipsum
-          dolor sit amet consectetur adipisicing elit. Consequuntur illo nostrum
-          recusandae aut ut, atque laudantium neque rem porro aliquid
-          perspiciatis. Nam ex, numquam repellat iusto eum quasi? Labore,
-          incidunt.
+          It is notable that over the episodes, Princess Zelda has been able to
+          get out of her role of damsel in distress and take part in the action
+          by means of alter-egos such as Sheik in Ocarina of Time or Tetra in
+          The Wind Waker and his retinue, the adoption of such disguises also
+          allowing him to remain hidden from the enemy. This aspect is further
+          reinforced in Spirit Tracks where, deprived of her body, she
+          accompanies Link in her ghostly form on his adventure. Zelda is also
+          often depicted as wielding the bow.
+          <br />
+          <br />
+          Breath of the Wild also offers a Zelda quite different from what we
+          were used to seeing in the series: we see a Zelda beset with doubts,
+          failing to live up to what is expected of her . And when she finally
+          gains her power, Link is on the verge of death, and she sends him to
+          the Sanctuary of Resurrection. She then finds herself alone against
+          Ganon, and will sacrifice herself for an entire century, voluntarily
+          being swallowed by Ganon, all for his people. She is also the first
+          Princess Zelda who does not directly have good feelings towards Link:
+          indeed, she hates the Hero at first sight, the latter reminding us
+          that she is not up to it. She will nevertheless become, like all the
+          other Zelda Princesses, a great friend of Link.
         </p>
       </section>
       <section className="two">
         <img src="src/assets/Link.webp" alt="status" />
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi
-          aliquid sequi, accusamus repellat ipsam, soluta architecto consequatur
-          hic voluptas delectus optio quae saepe aperiam harum sit! Incidunt
-          deleniti perferendis asperiores. Lorem ipsum dolor sit amet
-          consectetur, adipisicing elit. Molestias, atque autem vero voluptates
-          minus optio, nesciunt accusantium similique maxime laborum vel magnam
-          veritatis nihil est perferendis! Quod ullam atque cum. Lorem, ipsum
-          dolor sit amet consectetur adipisicing elit. Consequuntur illo nostrum
-          recusandae aut ut, atque laudantium neque rem porro aliquid
-          perspiciatis. Nam ex, numquam repellat iusto eum quasi? Labore,
-          incidunt.
+          Link is the name of the hero of The Legend of Zelda series. He is
+          recognizable at first glance by his tunic and his green cap (although
+          he starts with other clothes in some episodes), and the characteristic
+          of not uttering a single word during the entire adventure. Holder of
+          the Triforce of Courage and descendant of the Hylian Knights, as
+          evidenced by his pointed ears, he also takes on a notable occasion
+          (Majora&apos;s Mask) the appearance unique to other races of Hyrule,
+          using masks that transform it.
           <br />
           <br />
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi
-          aliquid sequi, accusamus repellat ipsam, soluta architecto consequatur
-          hic voluptas delectus optio quae saepe aperiam harum sit! Incidunt
-          deleniti perferendis asperiores. Lorem ipsum dolor sit amet
-          consectetur, adipisicing elit. Molestias, atque autem vero voluptates
-          minus optio, nesciunt accusantium similique maxime laborum vel magnam
-          veritatis nihil est perferendis! Quod ullam atque cum. Lorem, ipsum
-          dolor sit amet consectetur adipisicing elit. Consequuntur illo nostrum
-          recusandae aut ut, atque laudantium neque rem porro aliquid
-          perspiciatis. Nam ex, numquam repellat iusto eum quasi? Labore,
-          incidunt.
+          It is generally accepted that apart from direct sequels, each Zelda
+          game features a different Link, ancestor or descendant of that of
+          another episode. Some of his incarnations have remained famous under a
+          particular title - such as the Hero of Time from Ocarina of Time or
+          the Hero of Wind from The Wind Waker. Link&apos;s age varies depending
+          on the game he appears in, ranging from a toddler to a young adult; if
+          certain members of his family (uncle, sister, grandmother) are
+          sometimes part of the scenario, a constant in the series is to make
+          him an orphan.
+          <br />
+          <br />
+          It is Breath of the Wild that will provide us with the most
+          information about his Link: we learn that he chose the path of a
+          knight to walk in his father&apos;s footsteps, that his silence is
+          caused by the weight of his responsibilities. , or its gluttony.
+          However, after waking up, some points of his personality seem to have
+          changed, notably his silence: he seems to be more social. He&apos;s
+          also the only Link who didn&apos;t immediately have a good
+          relationship with Princess Zelda.
         </p>
       </section>
       <section className="one">
         <img src="src/assets/Ganon.webp" alt="status" />
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi
-          aliquid sequi, accusamus repellat ipsam, soluta architecto consequatur
-          hic voluptas delectus optio quae saepe aperiam harum sit! Incidunt
-          deleniti perferendis asperiores. Lorem ipsum dolor sit amet
-          consectetur, adipisicing elit. Molestias, atque autem vero voluptates
-          minus optio, nesciunt accusantium similique maxime laborum vel magnam
-          veritatis nihil est perferendis! Quod ullam atque cum. Lorem, ipsum
-          dolor sit amet consectetur adipisicing elit. Consequuntur illo nostrum
-          recusandae aut ut, atque laudantium neque rem porro aliquid
-          perspiciatis. Nam ex, numquam repellat iusto eum quasi? Labore,
-          incidunt.
+          Ganondorf is the main enemy of The Legend of Zelda series. The
+          Triforce of Force, of which he is the holder, makes him practically
+          immortal, leaving him only a few weapons of Legend as weak points.
+          Armed with his power, he has attacked the royal family of Hyrule many
+          times, often by kidnapping Princess Zelda, to take control of the
+          throne of the kingdom. His bestial form, Ganon, reflects the darkness
+          of his soul.
           <br />
           <br />
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi
-          aliquid sequi, accusamus repellat ipsam, soluta architecto consequatur
-          hic voluptas delectus optio quae saepe aperiam harum sit! Incidunt
-          deleniti perferendis asperiores. Lorem ipsum dolor sit amet
-          consectetur, adipisicing elit. Molestias, atque autem vero voluptates
-          minus optio, nesciunt accusantium similique maxime laborum vel magnam
-          veritatis nihil est perferendis! Quod ullam atque cum. Lorem, ipsum
-          dolor sit amet consectetur adipisicing elit. Consequuntur illo nostrum
-          recusandae aut ut, atque laudantium neque rem porro aliquid
-          perspiciatis. Nam ex, numquam repellat iusto eum quasi? Labore,
-          incidunt.
+          He often appears in the series as the archenemy of Link and Zelda and
+          a representation of absolute evil, although motives have sometimes
+          been given to explain his actions, with an almost tragic role in The
+          Wind Waker. He is the leader of a tribe of thieves, the Gerudos,
+          composed if not exclusively of women: tradition has it that male
+          children - and it turns out that only one is born every century - have
+          power. During the series, he often used puppets (Agahnim, Vaati,
+          Xanto) to achieve his ends.
+          <br />
+          <br />
+          His bestial form, Ganon, on the other hand, changes many appearances:
+          he goes from a kind of giant boar to the more iconic one of a huge
+          blue pig wielding his famous trident. His intelligence also varies,
+          going from being just as intelligent as his former appearance, as in A
+          link to the Past or Four Swords Adventure, to being wild and carried
+          away by his rage, as in The Oracles, The Legend of Zelda, A link
+          between worlds and finally Breath of the Wild. This purpose of
+          dehumanizing Ganon is even pushed to its climax there, because Breath
+          of the Wild is the only Zelda where Ganon cannot speak.
+          <br />
+          <br />
+          Unlike Link and Zelda, it is therefore the same Ganondorf that we meet
+          in each game: killed, resuscitated, sealed and freed again, he leads
+          an endless fight against a hero who always ends up reappearing.
+          <br />
+          <br />
+          <br />
+          <br />
         </p>
       </section>
     </div>
